@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
-import Button from 'components/button'
-import Container from 'components/container'
+import Button from 'components/common/button'
+import Container from 'components/common/container'
 import Logo from 'assets/images/brand/juno.svg'
 import * as S from './header-styles'
 
