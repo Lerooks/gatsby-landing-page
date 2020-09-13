@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Container } from 'components/common/container/container-styles'
 
 export const Header = styled.header`
   background: #ffffff;
@@ -8,6 +9,8 @@ export const Header = styled.header`
   top: 0;
   left: 0;
 `
+
+export const HeaderContainer = styled(Container)``
 
 export const HeaderContent = styled.div`
   display: flex;

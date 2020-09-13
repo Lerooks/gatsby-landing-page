@@ -7,12 +7,12 @@ import * as S from './header-styles'
 export default function Header(): ReactElement {
   return (
     <S.Header>
-      <Container>
+      <S.HeaderContainer>
         <S.HeaderContent>
           <S.Logo src={Logo} alt="Juno" title="Juno"></S.Logo>
           <Button> Comece agora </Button>
         </S.HeaderContent>
-      </Container>
+      </S.HeaderContainer>
     </S.Header>
   )
 }
