@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Container } from 'components/common/container/container-styles'
 
 export const Footer = styled.footer`
   padding: 30px 0;
@@ -8,17 +9,11 @@ export const Footer = styled.footer`
   }
 `
 
-export const FooterContainer = styled.div`
+export const FooterContainer = styled(Container)`
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
   flex-direction: column;
-  width: 100%;
+  justify-content: space-between;
 
   @media screen and (min-width: 992px) {
     flex-direction: row;
