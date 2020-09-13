@@ -1,5 +1,5 @@
 import React, { ReactElement, ReactNode } from 'react'
-import Header from 'components/header'
+import Header from 'components/common/header'
 import * as S from './base-layout-styles'
 
 interface Props {

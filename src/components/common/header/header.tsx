@@ -9,7 +9,7 @@ export default function Header(): ReactElement {
     <S.Header>
       <Container>
         <S.HeaderContent>
-          <S.Logo src={Logo}></S.Logo>
+          <S.Logo src={Logo} alt="Juno" title="Juno"></S.Logo>
           <Button> Comece agora </Button>
         </S.HeaderContent>
       </Container>
