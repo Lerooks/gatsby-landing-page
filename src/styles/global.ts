@@ -2,9 +2,16 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
