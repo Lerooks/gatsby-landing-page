@@ -1,10 +1,11 @@
 import React, { ReactElement } from 'react'
 import { PageProps } from 'gatsby'
+import BaseLayout from 'layouts/base-layout'
 
 export default function IndexPage({ data }: PageProps): ReactElement {
   return (
-    <div>
+    <BaseLayout>
       <h1> Index Page </h1>
-    </div>
+    </BaseLayout>
   )
 }
