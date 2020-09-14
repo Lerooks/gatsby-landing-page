@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Container } from 'components/common/container/container-styles'
 
 export const Footer = styled.footer`
+  background-color: #fff;
   padding: 30px 0;
 
   @media screen and (min-width: 992px) {

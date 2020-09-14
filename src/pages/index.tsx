@@ -1,16 +1,15 @@
 import React, { ReactElement } from 'react'
-import { PageProps } from 'gatsby'
 import BaseLayout from 'layouts/base-layout'
 import Banner from 'components/home/banner'
 import Process from 'components/home/process'
+import Charges from 'components/home/charges'
 
-type DataProps = {}
-
-export default function IndexPage({}: PageProps<DataProps>): ReactElement {
+export default function IndexPage(): ReactElement {
   return (
     <BaseLayout>
       <Banner></Banner>
       <Process></Process>
+      <Charges></Charges>
     </BaseLayout>
   )
 }
