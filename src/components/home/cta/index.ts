@@ -1,1 +1,1 @@
-export { default } from './cta'
+export { default } from './cta-container'

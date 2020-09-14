@@ -2,7 +2,12 @@ import React, { ReactElement } from 'react'
 import * as S from './charges-styles'
 import Image from 'assets/images/home/cobrancas-recorrentes.png'
 
-export default function Charges(): ReactElement {
+interface Props {
+  title: string
+  description: string
+}
+
+export default function Charges({ title, description }: Props): ReactElement {
   return (
     <S.Charges>
       <S.ChargesContainer>
@@ -11,11 +16,8 @@ export default function Charges(): ReactElement {
             <S.Image src={Image}></S.Image>
           </S.ImageWrapper>
           <S.Content>
-            <S.Title> Emita cobranças recorrentes </S.Title>
-            <S.Text>
-              Com a Juno, você pode emitir cobranças recorrentes com lembretes que ajudam a diminuir a inadimplência dos
-              seus clientes.
-            </S.Text>
+            <S.Title> {title} </S.Title>
+            <S.Text>{description}</S.Text>
           </S.Content>
         </S.Wrapper>
       </S.ChargesContainer>

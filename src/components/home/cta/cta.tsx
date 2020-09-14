@@ -3,14 +3,20 @@ import React, { ReactElement } from 'react'
 import * as S from './cta-styles'
 import CtaImage from 'assets/images/home/cta.png'
 
-export default function CTA(): ReactElement {
+interface Props {
+  title: string
+  description: string
+  buttonLabel: string
+}
+
+export default function CTA({ title, description, buttonLabel }: Props): ReactElement {
   return (
     <S.CTA>
       <S.CTAContainer>
         <S.CTAContent>
-          <S.CTATitle> Gostou? </S.CTATitle>
-          <S.CTAText>Fazer seu cadastro na Juno é grátis e não leva nem 5 minutos.</S.CTAText>
-          <Button> Comece agora </Button>
+          <S.CTATitle> {title} </S.CTATitle>
+          <S.CTAText> {description} </S.CTAText>
+          <Button title={buttonLabel}> {buttonLabel} </Button>
         </S.CTAContent>
       </S.CTAContainer>
       <S.CTAImageWrapper>

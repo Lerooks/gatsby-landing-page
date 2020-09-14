@@ -1,29 +1,31 @@
 import { useStaticQuery, graphql } from 'gatsby'
 import React, { ReactElement } from 'react'
-import Charges from './charges'
+import CTA from './cta'
 
 type DataProps = {
   dataJson: {
     indexPage: {
       content: {
-        charges: {
+        cta: {
           title: string
           description: string
+          buttonLabel: string
         }
       }
     }
   }
 }
 
-export default function ChargesContainer(): ReactElement {
+export default function CTAContainer(): ReactElement {
   const data: DataProps = useStaticQuery(graphql`
     {
       dataJson {
         indexPage {
           content {
-            charges {
-              description
+            cta {
               title
+              description
+              buttonLabel
             }
           }
         }
@@ -32,9 +34,10 @@ export default function ChargesContainer(): ReactElement {
   `)
 
   return (
-    <Charges
-      title={data.dataJson.indexPage.content.charges.title}
-      description={data.dataJson.indexPage.content.charges.description}
-    ></Charges>
+    <CTA
+      title={data.dataJson.indexPage.content.cta.title}
+      description={data.dataJson.indexPage.content.cta.description}
+      buttonLabel={data.dataJson.indexPage.content.cta.buttonLabel}
+    ></CTA>
   )
 }

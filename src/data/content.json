@@ -1,0 +1,53 @@
+{
+  "headerComponent": {
+    "content": {
+      "buttonLabel": "Comece agora"
+    }
+  },
+  "footerComponent": {
+    "content": {
+      "firstText": "Juno.com.br",
+      "secondText": {
+        "firstLine": "2020 Juno. Todos os direitos reservados.",
+        "secondLine": "Juno é uma plataforma de BoletoBancário.com"
+      },
+      "thirdText": "#tamojuno"
+    }
+  },
+  "indexPage": {
+    "seo": {
+      "title": "Profissionalize seu negócio recebendo pagamentos por boleto - Juno",
+      "description": "Na Juno você não precisa ter conta jurídica e nem carteira de cobrança junto ao banco para emitir boletos. Basta seu CPF. Simples assim!"
+    },
+    "content": {
+      "banner": {
+        "title": "Profissionalize seu negócio recebendo pagamentos por boleto",
+        "description": "Na Juno você não precisa ter conta jurídica e nem carteira de cobrança junto ao banco para emitir boletos. Basta seu CPF. Simples assim!",
+        "buttonLabel": "Comece agora"
+      },
+      "process": {
+        "title": "Como a Juno funciona?",
+        "items": [
+          {
+            "text": "Você se cadastra na Juno, emite cobranças e envia para seus clientes. É rápido e não precisa ter carteira de cobrança em nenhum banco."
+          },
+          {
+            "text": "Seu cliente recebe a cobrança da maneira que você preferir e paga. A Juno cuida da conciliação bancária e da segurança das suas transações."
+          },
+          {
+            "text": "O dinheiro cai na sua conta Juno e você pode usá-lo com seu cartão Juno, pagar contas ou transferir para uma conta bancária."
+          }
+        ]
+      },
+      "charges": {
+        "title": "Emita cobranças recorrentes",
+        "description": "Com a Juno, você pode emitir cobranças recorrentes com lembretes que ajudam a diminuir a inadimplência dos seus clientes."
+      },
+      "cta": {
+        "title": "Gostou?",
+        "description": "Fazer seu cadastro na Juno é grátis e não leva nem 5 minutos.",
+        "buttonLabel": "Comece agora"
+      }
+    }
+  }
+}
