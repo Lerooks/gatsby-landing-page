@@ -40,13 +40,14 @@ export const Content = styled.div`
   z-index: 10;
 `
 
-export const Title = styled.div`
+export const Title = styled.h1`
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #ffffff;
+  margin-top: 0;
   margin-bottom: 20px;
 
   @media screen and (min-width: 992px) {
@@ -55,12 +56,13 @@ export const Title = styled.div`
   }
 `
 
-export const Text = styled.div`
+export const Text = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.4px;
   color: #ffffff;
+  margin-top: 0;
   margin-bottom: 30px;
 `

@@ -8,6 +8,7 @@ export const Header = styled.header`
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 20;
 `
 
 export const HeaderContainer = styled(Container)``
