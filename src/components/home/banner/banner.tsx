@@ -1,12 +1,13 @@
 import React, { ReactElement } from 'react'
 import Button from 'components/common/button'
+import BannerImage from 'assets/images/home/banner-bg.png'
 import * as S from './banner-styles'
 
 export default function Banner(): ReactElement {
   return (
     <S.Banner>
       <S.Background>
-        <S.BackgroundImage></S.BackgroundImage>
+        <S.BackgroundImage src={BannerImage}></S.BackgroundImage>
       </S.Background>
       <S.BannerContainer>
         <S.Content>

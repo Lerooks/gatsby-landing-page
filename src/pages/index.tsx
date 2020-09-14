@@ -3,7 +3,9 @@ import { PageProps } from 'gatsby'
 import BaseLayout from 'layouts/base-layout'
 import Banner from 'components/home/banner'
 
-export default function HomePage({ data }: PageProps): ReactElement {
+type DataProps = {}
+
+export default function IndexPage({}: PageProps<DataProps>): ReactElement {
   return (
     <BaseLayout>
       <Banner></Banner>
