@@ -1,5 +1,7 @@
 import React, { ReactElement, ReactNode } from 'react'
+import { ThemeProvider } from 'styled-components'
 import GlobalStyle from 'styles/global'
+import theme from 'styles/theme'
 import BaseLayout from './base-layout'
 
 interface Props {
@@ -10,7 +12,9 @@ export default function BaseLayoutContainer({ children }: Props): ReactElement {
   return (
     <>
       <GlobalStyle></GlobalStyle>
-      <BaseLayout>{children}</BaseLayout>
+      <ThemeProvider theme={theme}>
+        <BaseLayout>{children}</BaseLayout>
+      </ThemeProvider>
     </>
   )
 }

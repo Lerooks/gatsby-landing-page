@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Container } from 'components/common/container/container-styles'
 export const CTA = styled.section`
-  background-color: #00155f;
+  background-color: ${props => props.theme.colors.brandDark};
   position: relative;
 
   @media screen and (min-width: 992px) {

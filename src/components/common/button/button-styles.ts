@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Button = styled.button`
   align-items: center;
-  background-color: #252aff;
+  background-color: ${props => props.theme.colors.brand};
   border-radius: 4px;
   border-style: unset;
   border-width: unset;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Container } from 'components/common/container/container-styles'
 
 export const Banner = styled.section`
-  background-color: #00155f;
+  background-color: ${props => props.theme.colors.brandDark};
   margin-top: 63px;
   padding: 65px 0;
   position: relative;

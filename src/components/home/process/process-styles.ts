@@ -12,7 +12,7 @@ export const Process = styled.section`
 export const ProcessContainer = styled(Container)``
 
 export const Title = styled.h2`
-  color: #333333;
+  color: ${props => props.theme.colors.gray400};
   font-size: 32px;
   font-style: normal;
   font-weight: bold;
@@ -37,7 +37,7 @@ export const List = styled.ul`
 `
 
 export const Item = styled.li`
-  color: #666666;
+  color: ${props => props.theme.colors.gray300};
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
@@ -47,7 +47,7 @@ export const Item = styled.li`
   position: relative;
 
   &::before {
-    color: #fc8b24;
+    color: #${props => props.theme.colors.orange};
     font-size: 24px;
     font-style: normal;
     font-weight: 900;

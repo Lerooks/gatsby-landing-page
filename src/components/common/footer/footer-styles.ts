@@ -26,7 +26,7 @@ export const Group = styled.div`
 `
 
 export const Text = styled.p`
-  color: #333333;
+  color: ${props => props.theme.colors.gray400};
   font-size: 14px;
   font-style: normal;
   font-weight: bold;

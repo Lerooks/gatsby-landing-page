@@ -32,7 +32,7 @@ export const Content = styled.div`
 `
 
 export const Title = styled.h2`
-  color: #252aff;
+  color: ${props => props.theme.colors.brand};
   font-size: 32px;
   font-style: normal;
   font-weight: bold;
@@ -43,7 +43,7 @@ export const Title = styled.h2`
 `
 
 export const Text = styled.p`
-  color: #666666;
+  color: ${props => props.theme.colors.gray300};
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
