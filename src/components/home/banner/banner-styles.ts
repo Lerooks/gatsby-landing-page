@@ -6,6 +6,10 @@ export const Banner = styled.section`
   margin-top: 63px;
   padding: 65px 0;
   position: relative;
+
+  @media screen and (min-width: 992px) {
+    padding: 114px 0px;
+  }
 `
 
 export const BannerContainer = styled(Container)``
