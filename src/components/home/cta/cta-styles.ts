@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 import { Container } from 'components/common/container/container-styles'
-
 export const CTA = styled.section`
-  position: relative;
   background-color: #00155f;
+  position: relative;
 
   @media screen and (min-width: 992px) {
     padding: 139px 0;
@@ -21,56 +20,56 @@ export const CTAContent = styled.div`
 `
 
 export const CTATitle = styled.div`
+  color: #ffffff;
+  font-size: 32px;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
   line-height: 32px;
-  color: #ffffff;
-  margin-top: 0;
   margin-bottom: 20px;
+  margin-top: 0;
 `
 
 export const CTAText = styled.div`
+  color: #ffffff;
+  font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 140%;
   letter-spacing: 0.4px;
-  color: #ffffff;
-  margin-top: 0;
+  line-height: 140%;
   margin-bottom: 30px;
+  margin-top: 0;
   max-width: 280px;
 `
 
 export const CTAImageWrapper = styled.div`
-  overflow: hidden;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: flex-start;
+  overflow: hidden;
 
   @media screen and (min-width: 992px) {
+    height: 100%;
+    left: 50%;
     position: absolute;
     top: 0;
-    left: 50%;
-    height: 100%;
     width: 50%;
   }
 `
 
 export const CTAImage = styled.img`
-  position: relative;
   height: 393px;
   left: -186px;
+  position: relative;
 
   @media screen and (min-width: 600px) {
-    left: 0;
-    width: 100%;
     height: 100%;
+    left: 0;
     object-fit: cover;
+    width: 100%;
   }
 
   @media screen and (min-width: 992px) {
-    width: auto;
     object-fit: none;
+    width: auto;
   }
 `

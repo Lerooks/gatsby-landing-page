@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 `

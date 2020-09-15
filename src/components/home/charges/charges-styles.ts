@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import Container from 'components/common/container'
 
 export const Charges = styled.section`
-  position: relative;
   padding: 50px 0;
+  position: relative;
 
   @media screen and (min-width: 992px) {
     padding: 75px 0;
@@ -14,16 +14,16 @@ export const ChargesContainer = styled(Container)``
 
 export const Wrapper = styled.div`
   display: grid;
+  gap: 30px 0;
   grid-template-areas: 'image' 'content';
   grid-template-columns: 1fr;
-  gap: 30px 0;
 
   @media screen and (min-width: 992px) {
-    gap: 0 50px;
-    justify-content: center;
     align-items: center;
-    grid-template-columns: 380px 500px;
+    gap: 0 50px;
     grid-template-areas: 'content image';
+    grid-template-columns: 380px 500px;
+    justify-content: center;
   }
 `
 
@@ -32,25 +32,25 @@ export const Content = styled.div`
 `
 
 export const Title = styled.h2`
-  max-width: 380px;
+  color: #252aff;
+  font-size: 32px;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
   line-height: 32px;
-  margin-top: 0;
   margin-bottom: 12px;
-  color: #252aff;
+  margin-top: 0;
+  max-width: 380px;
 `
 
 export const Text = styled.p`
+  color: #666666;
+  font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 140%;
   letter-spacing: 0.4px;
-  color: #666666;
-  margin-top: 0;
+  line-height: 140%;
   margin-bottom: 0;
+  margin-top: 0;
 
   @media screen and (min-width: 992px) {
     max-width: 317px;
@@ -58,17 +58,17 @@ export const Text = styled.p`
 `
 
 export const ImageWrapper = styled.div`
-  max-width: 650px;
-  width: 100%;
-  grid-area: image;
-  display: flex;
   align-items: center;
+  display: flex;
+  grid-area: image;
   justify-content: center;
   justify-self: center;
+  max-width: 650px;
+  width: 100%;
 `
 
 export const Image = styled.img`
   display: block;
-  width: 100%;
   max-width: 100%;
+  width: 100%;
 `

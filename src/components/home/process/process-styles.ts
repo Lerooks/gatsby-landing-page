@@ -3,60 +3,60 @@ import styled from 'styled-components'
 
 export const Process = styled.section`
   background: #f1f5fb;
-  padding-top: 45px;
-  padding-right: 0;
   padding-bottom: 60px;
   padding-left: 0;
+  padding-right: 0;
+  padding-top: 45px;
 `
 
 export const ProcessContainer = styled(Container)``
 
 export const Title = styled.h2`
+  color: #333333;
+  font-size: 32px;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
   line-height: 32px;
-  color: #333333;
-  margin-top: 0;
   margin-bottom: 32px;
+  margin-top: 0;
   max-width: 280px;
 `
 
 export const List = styled.ul`
+  display: grid;
+  grid-gap: 40px 0;
+  grid-template-columns: 1fr;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 40px 0;
 
   @media screen and (min-width: 992px) {
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 0 100px;
+    grid-template-columns: repeat(3, 1fr);
   }
 `
 
 export const Item = styled.li`
-  position: relative;
+  color: #666666;
+  font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 140%;
   letter-spacing: 0.4px;
-  color: #666666;
+  line-height: 140%;
   padding-left: 40px;
+  position: relative;
 
   &::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
+    color: #fc8b24;
+    font-size: 24px;
     font-style: normal;
     font-weight: 900;
-    font-size: 24px;
+    height: 40px;
+    left: 0;
     line-height: 36px;
-    color: #fc8b24;
+    position: absolute;
+    top: 0;
+    width: 40px;
   }
 
   &:nth-of-type(1) {
