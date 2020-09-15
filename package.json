@@ -39,6 +39,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-standard": "^4.0.1",
+    "gatsby-cli": "^2.12.96",
     "gatsby-plugin-tsconfig-paths": "^1.0.2",
     "git-commit-msg-linter": "^2.6.0",
     "prettier": "^2.1.1",
