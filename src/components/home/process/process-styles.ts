@@ -47,7 +47,7 @@ export const Item = styled.li`
   position: relative;
 
   &::before {
-    color: #${props => props.theme.colors.orange};
+    color: ${props => props.theme.colors.orange};
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
