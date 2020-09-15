@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
 import Button from 'components/common/button'
-import BannerImage from 'assets/images/home/banner-bg.png'
+import BannerImage from '../../../../static/images/home/banner-bg.png'
 import * as S from './banner-styles'
 
 interface Props {

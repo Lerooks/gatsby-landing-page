@@ -1,7 +1,7 @@
 import Button from 'components/common/button'
 import React, { ReactElement } from 'react'
 import * as S from './cta-styles'
-import CtaImage from 'assets/images/home/cta.png'
+import CtaImage from '../../../../static/images/home/cta.png'
 
 interface Props {
   title: string

@@ -6,23 +6,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'images',
-        path: `${__dirname}/src/assets/images`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
         name: 'data',
         path: `${__dirname}/src/data`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: `${__dirname}/src/assets/images`,
-        },
       },
     },
     {
@@ -34,7 +19,7 @@ module.exports = {
         background_color: '#ffffff',
         theme_color: '#ffffff',
         display: 'standalone',
-        icon: 'src/assets/images/favicon/favicon.png',
+        icon: 'static/images/favicon/favicon.png',
       },
     },
     'gatsby-transformer-sharp',

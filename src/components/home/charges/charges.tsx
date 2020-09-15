@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
 import * as S from './charges-styles'
-import Image from 'assets/images/home/cobrancas-recorrentes.png'
+import Image from '../../../../static/images/home/cobrancas-recorrentes.png'
 
 interface Props {
   title: string
